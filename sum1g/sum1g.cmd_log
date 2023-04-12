@@ -1,0 +1,7 @@
+sch2vhdl -intstyle ise -family aspartan3 -flat -suppress -w "Z:/sum1g/sum1g.sch" sum1g.vhf
+xst -ise "Z:/sum1g/sum1g.ise" -intstyle ise -ifn sum1g.xst -ofn sum1g.syr
+ngdbuild -ise "Z:/sum1g/sum1g.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 "sum1g.ngc" sum1g.ngd
+map -ise "Z:/sum1g/sum1g.ise" -intstyle ise -p xa3s50-vqg100-4 -cm area -pr b -k 4 -c 100 -o sum1g_map.ncd sum1g.ngd sum1g.pcf
+par -ise "Z:/sum1g/sum1g.ise" -w -intstyle ise -ol std -t 1 sum1g_map.ncd sum1g.ncd sum1g.pcf
+trce -ise "Z:/sum1g/sum1g.ise" -intstyle ise -e 3 -s 4 -xml sum1g sum1g.ncd -o sum1g.twr sum1g.pcf
+netgen -ise "Z:/sum1g/sum1g.ise" -intstyle ise -s 4 -pcf sum1g.pcf -rpw 100 -tpw 0 -ar Structure -tm sum1g -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sum1g.ncd sum1g_timesim.vhd

@@ -1,0 +1,14 @@
+V3 10
+FL //vboxsvr/proiectare_logica/AddSub4V/as4v.vhd 2023/03/19.20:44:27 J.40
+EN work/as4v 1679252096 FL //vboxsvr/proiectare_logica/AddSub4V/as4v.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/as4v/Behavioral 1679252097 \
+      FL //vboxsvr/proiectare_logica/AddSub4V/as4v.vhd EN work/as4v 1679252096
+FL //vboxsvr/proiectare_logica/AddSub4V/top.vhf 2023/03/19.20:54:39 J.40
+FL Z:/AddSub4V/as4v.vhd 2023/03/19.20:44:27 J.40
+FL Z:/AddSub4V/top.vhf 2023/03/19.20:54:39 J.40
+EN work/top 1679252464 FL Z:/AddSub4V/top.vhf PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/top/BEHAVIORAL 1679252465 \
+      FL Z:/AddSub4V/top.vhf EN work/top 1679252464 CP as4v

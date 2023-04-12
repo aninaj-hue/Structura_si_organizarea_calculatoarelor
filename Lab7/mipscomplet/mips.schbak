@@ -1,0 +1,237 @@
+VERSION 6
+BEGIN SCHEMATIC
+    BEGIN ATTR DeviceFamilyName "spartan3"
+        DELETE all:0
+        EDITNAME all:0
+        EDITTRAIT all:0
+    END ATTR
+    BEGIN NETLIST
+        SIGNAL New_PC(31:0)
+        SIGNAL Clk
+        SIGNAL PC(31:0)
+        SIGNAL PC(6:2)
+        SIGNAL XLXN_7(31:0)
+        SIGNAL Instr(20:16)
+        SIGNAL Instr(25:21)
+        SIGNAL Instr(15:11)
+        SIGNAL RegDest
+        SIGNAL WrReg(4:0)
+        SIGNAL XLXN_14(4:0)
+        SIGNAL RegWr
+        PORT Input Clk
+        BEGIN BLOCKDEF ProgCnt
+            TIMESTAMP 2022 4 30 12 54 17
+            RECTANGLE N 64 -128 320 0 
+            LINE N 64 -96 0 -96 
+            RECTANGLE N 0 -44 64 -20 
+            LINE N 64 -32 0 -32 
+            RECTANGLE N 320 -108 384 -84 
+            LINE N 320 -96 384 -96 
+        END BLOCKDEF
+        BEGIN BLOCKDEF Pc_Update
+            TIMESTAMP 2022 4 30 13 3 50
+            RECTANGLE N 64 -64 320 28 
+            RECTANGLE N 0 -44 64 -20 
+            LINE N 0 -32 64 -32 
+            RECTANGLE N 320 -12 384 12 
+            LINE N 388 0 324 0 
+        END BLOCKDEF
+        BEGIN BLOCKDEF ROM32x32
+            TIMESTAMP 2022 4 30 13 56 2
+            RECTANGLE N 64 -64 320 0 
+            RECTANGLE N 0 -44 64 -20 
+            LINE N 64 -32 0 -32 
+            RECTANGLE N 320 -44 384 -20 
+            LINE N 320 -32 384 -32 
+        END BLOCKDEF
+        BEGIN BLOCKDEF MUX2V5
+            TIMESTAMP 2022 4 30 14 7 19
+            RECTANGLE N 64 -192 320 0 
+            RECTANGLE N 320 -172 384 -148 
+            LINE N 320 -160 384 -160 
+            RECTANGLE N 0 -108 64 -84 
+            LINE N 64 -96 0 -96 
+            RECTANGLE N 0 -172 64 -148 
+            LINE N 64 -160 0 -160 
+            LINE N 64 -48 0 -48 
+        END BLOCKDEF
+        BEGIN BLOCKDEF File_Regs
+            TIMESTAMP 2022 5 21 8 40 31
+            RECTANGLE N 0 -108 64 -84 
+            LINE N 64 -96 0 -96 
+            RECTANGLE N 0 -44 64 -20 
+            LINE N 64 -32 0 -32 
+            RECTANGLE N 60 -616 380 -12 
+            LINE N 64 -592 0 -592 
+            LINE N 64 -528 0 -528 
+            RECTANGLE N 384 -604 448 -580 
+            LINE N 384 -592 448 -592 
+            RECTANGLE N 384 -524 448 -500 
+            LINE N 384 -512 448 -512 
+            RECTANGLE N 0 -428 64 -404 
+            LINE N 64 -416 0 -416 
+            RECTANGLE N 0 -364 64 -340 
+            LINE N 64 -352 0 -352 
+        END BLOCKDEF
+        BEGIN BLOCK U_PC ProgCnt
+            PIN Clk Clk
+            PIN New_Pc(31:0) New_PC(31:0)
+            PIN Pc(31:0) PC(31:0)
+        END BLOCK
+        BEGIN BLOCK U_New_PC Pc_Update
+            PIN New_Pc(31:0) New_PC(31:0)
+            PIN Pc(31:0) PC(31:0)
+        END BLOCK
+        BEGIN BLOCK U_ROM ROM32x32
+            PIN Addr(4:0) PC(6:2)
+            PIN Data(31:0) XLXN_7(31:0)
+        END BLOCK
+        BEGIN BLOCK U_MUXRegD MUX2V5
+            PIN Y(4:0) WrReg(4:0)
+            PIN I1(4:0) Instr(15:11)
+            PIN I0(4:0) Instr(20:16)
+            PIN Sel RegDest
+        END BLOCK
+        BEGIN BLOCK U_Regs File_Regs
+            PIN WrReg(4:0) WrReg(4:0)
+            PIN WRData(31:0)
+            PIN Clk Clk
+            PIN WrEn RegWr
+            PIN RdData1(31:0)
+            PIN RdData2(31:0)
+            PIN RdReg1(4:0) Instr(25:21)
+            PIN RdReg2(4:0) Instr(20:16)
+        END BLOCK
+    END NETLIST
+    BEGIN SHEET 1 5440 3520
+        BEGIN INSTANCE U_New_PC 352 288 R0
+            BEGIN DISPLAY 112 -152 ATTR InstName
+                FONT 28 "Arial"
+            END DISPLAY
+        END INSTANCE
+        BEGIN BRANCH New_PC(31:0)
+            WIRE 240 256 352 256
+            WIRE 240 256 240 448
+            WIRE 240 448 240 640
+            WIRE 240 640 320 640
+            WIRE 320 640 368 640
+            BEGIN DISPLAY 240 448 ATTR Name
+                ALIGNMENT SOFT-TVCENTER
+            END DISPLAY
+        END BRANCH
+        BEGIN BRANCH Clk
+            WIRE 336 576 368 576
+        END BRANCH
+        IOMARKER 336 576 Clk R180 28
+        BEGIN INSTANCE U_PC 368 672 R0
+            BEGIN DISPLAY 144 24 ATTR InstName
+                FONT 28 "Arial"
+            END DISPLAY
+        END INSTANCE
+        BEGIN BRANCH PC(31:0)
+            WIRE 736 288 768 288
+            WIRE 768 288 768 416
+            WIRE 768 416 768 576
+            WIRE 768 576 768 656
+            WIRE 768 656 768 720
+            WIRE 752 576 768 576
+            BEGIN DISPLAY 768 416 ATTR Name
+                ALIGNMENT SOFT-TVCENTER
+            END DISPLAY
+        END BRANCH
+        BUSTAP 768 656 864 656
+        BEGIN INSTANCE U_ROM 960 688 R0
+            BEGIN DISPLAY 144 -168 ATTR InstName
+                FONT 28 "Arial"
+            END DISPLAY
+        END INSTANCE
+        BEGIN BRANCH PC(6:2)
+            WIRE 864 656 896 656
+            WIRE 896 656 960 656
+            BEGIN DISPLAY 896 656 ATTR Name
+                ALIGNMENT SOFT-BCENTER
+            END DISPLAY
+        END BRANCH
+        BEGIN BRANCH XLXN_7(31:0)
+            WIRE 1344 656 1392 656
+            WIRE 1392 656 1392 688
+            WIRE 1392 688 1392 736
+            WIRE 1392 736 1392 912
+            WIRE 1392 912 1392 1024
+            WIRE 1392 1024 1392 1072
+            WIRE 1392 1072 1392 1280
+        END BRANCH
+        BUSTAP 1392 688 1488 688
+        BUSTAP 1392 736 1488 736
+        BEGIN BRANCH Instr(20:16)
+            WIRE 1488 736 1632 736
+            WIRE 1632 736 1632 1008
+            WIRE 1632 1008 1728 1008
+            WIRE 1632 736 1840 736
+            WIRE 1840 736 1952 736
+            WIRE 1952 736 1952 752
+            WIRE 1952 752 2368 752
+            BEGIN DISPLAY 1840 736 ATTR Name
+                ALIGNMENT SOFT-BCENTER
+            END DISPLAY
+        END BRANCH
+        BEGIN BRANCH Instr(25:21)
+            WIRE 1488 688 1840 688
+            WIRE 1840 688 1952 688
+            WIRE 1952 688 2368 688
+            BEGIN DISPLAY 1840 688 ATTR Name
+                ALIGNMENT SOFT-BCENTER
+            END DISPLAY
+        END BRANCH
+        BEGIN INSTANCE U_MUXRegD 1728 1168 R0
+            BEGIN DISPLAY 96 -296 ATTR InstName
+                FONT 28 "Arial"
+            END DISPLAY
+        END INSTANCE
+        BUSTAP 1392 1072 1488 1072
+        BEGIN BRANCH Instr(15:11)
+            WIRE 1472 1072 1488 1072
+            WIRE 1488 1072 1584 1072
+            WIRE 1584 1072 1632 1072
+            WIRE 1632 1072 1728 1072
+            BEGIN DISPLAY 1584 1072 ATTR Name
+                ALIGNMENT SOFT-BCENTER
+            END DISPLAY
+        END BRANCH
+        BEGIN BRANCH RegDest
+            WIRE 1472 1120 1584 1120
+            WIRE 1584 1120 1728 1120
+            BEGIN DISPLAY 1584 1120 ATTR Name
+                ALIGNMENT SOFT-BCENTER
+            END DISPLAY
+        END BRANCH
+        BEGIN BRANCH WrReg(4:0)
+            WIRE 2112 1008 2208 1008
+            WIRE 2208 1008 2288 1008
+            WIRE 2288 1008 2368 1008
+            BEGIN DISPLAY 2208 1008 ATTR Name
+                ALIGNMENT SOFT-BCENTER
+            END DISPLAY
+        END BRANCH
+        BEGIN INSTANCE U_Regs 2368 1104 R0
+            BEGIN DISPLAY 96 -688 ATTR InstName
+                FONT 28 "Arial"
+            END DISPLAY
+        END INSTANCE
+        BEGIN BRANCH Clk
+            WIRE 2192 512 2256 512
+            WIRE 2256 512 2288 512
+            WIRE 2288 512 2368 512
+            BEGIN DISPLAY 2256 512 ATTR Name
+                ALIGNMENT SOFT-BCENTER
+            END DISPLAY
+        END BRANCH
+        BEGIN BRANCH RegWr
+            WIRE 2096 576 2144 576
+            WIRE 2144 576 2368 576
+            BEGIN DISPLAY 2144 576 ATTR Name
+                ALIGNMENT SOFT-BCENTER
+            END DISPLAY
+        END BRANCH
+    END SHEET
+END SCHEMATIC

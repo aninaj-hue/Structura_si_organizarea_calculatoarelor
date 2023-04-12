@@ -1,0 +1,10 @@
+AR rom32x32 behavioral Z:/mips/ROM32x32.vhd sub00/vhpl05 1680378565
+EN mux2 NULL Z:/mips/MUX2.vhd sub00/vhpl06 1680378920
+AR mux2 behavioral Z:/mips/MUX2.vhd sub00/vhpl07 1680378921
+EN rom32x32 NULL Z:/mips/ROM32x32.vhd sub00/vhpl04 1680378564
+EN pc_update NULL Z:/mips/PC_Update.vhd sub00/vhpl00 1680376483
+AR mips behavioral Z:/mips/mips.vhf sub00/vhpl09 1680605725
+EN progcnt NULL Z:/mips/ProgCnt.vhd sub00/vhpl02 1680376857
+EN mips NULL Z:/mips/mips.vhf sub00/vhpl08 1680605724
+AR progcnt behavioral Z:/mips/ProgCnt.vhd sub00/vhpl03 1680376858
+AR pc_update behavioral Z:/mips/PC_Update.vhd sub00/vhpl01 1680376484

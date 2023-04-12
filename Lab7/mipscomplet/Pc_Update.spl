@@ -1,0 +1,5 @@
+[Inputs]
+=Pc[31:0]=
+[Outputs]
+=New_Pc[31:0]=
+[BiDir]

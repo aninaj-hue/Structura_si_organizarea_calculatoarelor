@@ -1,0 +1,7 @@
+V3 8
+FL //vboxsvr/proiectare_logica/sum2g/sum2g.vhf 2023/02/24.23:15:33 J.40
+FL Z:/sum2g/sum2g.vhf 2023/02/24.23:15:33 J.40
+EN work/sum2g 1677273382 FL Z:/sum2g/sum2g.vhf PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/sum2g/BEHAVIORAL 1677273383 \
+      FL Z:/sum2g/sum2g.vhf EN work/sum2g 1677273382 CP XOR3 CP AND2 CP OR3

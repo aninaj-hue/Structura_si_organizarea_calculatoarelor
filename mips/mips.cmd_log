@@ -1,0 +1,4 @@
+sch2vhdl -intstyle ise -family aspartan3 -flat -suppress -w "Z:/mips/mips.sch" mips.vhf
+sch2vhdl -intstyle ise -family aspartan3 -flat -suppress -w "Z:/mips/mips.sch" mips.vhf
+sch2vhdl -intstyle ise -family aspartan3 -flat -suppress -w "Z:/mips/mips.sch" mips.vhf
+sch2vhdl -intstyle ise -family aspartan3 -flat -suppress -w "Z:/mips/mips.sch" mips.vhf

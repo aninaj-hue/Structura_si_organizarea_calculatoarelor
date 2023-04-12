@@ -1,0 +1,73 @@
+V3 51
+FL E:/LaboratoareSOC/Lab7/mipscomplet/ALU.vhd 2022/05/21.15:36:23 J.40
+EN work/ALU 1653574958 FL E:/LaboratoareSOC/Lab7/mipscomplet/ALU.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ALU/Behavioral 1653574959 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/ALU.vhd EN work/ALU 1653574958
+FL E:/LaboratoareSOC/Lab7/mipscomplet/ctrl.vhd 2022/05/21.15:16:42 J.40
+EN work/ctrl 1653574960 FL E:/LaboratoareSOC/Lab7/mipscomplet/ctrl.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ctrl/Behavioral 1653574961 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/ctrl.vhd EN work/ctrl 1653574960
+FL E:/LaboratoareSOC/Lab7/mipscomplet/DataMem.vhd 2022/05/26.17:21:17 J.40
+EN work/DataMem 1653574962 FL E:/LaboratoareSOC/Lab7/mipscomplet/DataMem.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/DataMem/Behavioral 1653574963 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/DataMem.vhd EN work/DataMem 1653574962
+FL E:/LaboratoareSOC/Lab7/mipscomplet/File_Regs.vhd 2022/05/21.11:31:18 J.40
+EN work/File_Regs 1653574972 FL E:/LaboratoareSOC/Lab7/mipscomplet/File_Regs.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/File_Regs/Behavioral 1653574973 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/File_Regs.vhd EN work/File_Regs 1653574972
+FL E:/LaboratoareSOC/Lab7/mipscomplet/mips.vhf 2022/05/26.17:20:16 J.40
+FL E:/LaboratoareSOC/Lab7/mipscomplet/MUX2V32.vhd 2022/05/26.16:10:04 J.40
+EN work/MUX2V32 1653574964 FL E:/LaboratoareSOC/Lab7/mipscomplet/MUX2V32.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2V32/Behavioral 1653574965 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/MUX2V32.vhd EN work/MUX2V32 1653574964
+FL E:/LaboratoareSOC/Lab7/mipscomplet/MUX2V5.vhd 2022/04/30.17:03:31 J.40
+EN work/MUX2V5 1653574966 FL E:/LaboratoareSOC/Lab7/mipscomplet/MUX2V5.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2V5/Behavioral 1653574967 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/MUX2V5.vhd EN work/MUX2V5 1653574966
+FL E:/LaboratoareSOC/Lab7/mipscomplet/Pc_Update.vhd 2022/05/26.17:22:37 J.40
+EN work/Pc_Update 1653574968 FL E:/LaboratoareSOC/Lab7/mipscomplet/Pc_Update.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/Pc_Update/Behavioral 1653574969 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/Pc_Update.vhd EN work/Pc_Update 1653574968
+FL E:/LaboratoareSOC/Lab7/mipscomplet/ProgCnt.vhd 2022/04/30.15:41:22 J.40
+EN work/ProgCnt 1653574970 FL E:/LaboratoareSOC/Lab7/mipscomplet/ProgCnt.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ProgCnt/Behavioral 1653574971 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/ProgCnt.vhd EN work/ProgCnt 1653574970
+FL E:/LaboratoareSOC/Lab7/mipscomplet/ROM32x32_test1.vhd 2022/05/26.16:50:47 J.40
+EN work/ROM32x32 1653574974 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/ROM32x32_test1.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ROM32x32/Behavioral 1653574975 \
+      FL E:/LaboratoareSOC/Lab7/mipscomplet/ROM32x32_test1.vhd EN work/ROM32x32 1653574974
+FL E:/LaboratoareSOC/mips/ALU.vhd 2022/05/21.12:48:37 J.40
+FL E:/LaboratoareSOC/mips/ctrl.vhd 2022/05/21.15:16:42 J.40
+FL E:/LaboratoareSOC/mips/DataMem.vhd 2022/05/21.14:12:11 J.40
+FL E:/LaboratoareSOC/mips/File_Regs.vhd 2022/05/21.11:31:18 J.40
+FL E:/LaboratoareSOC/mips/MUX2V32.vhd 2022/05/21.14:41:26 J.40
+FL E:/LaboratoareSOC/mips/MUX2V5.vhd 2022/04/30.17:03:31 J.40
+FL E:/LaboratoareSOC/mips/Pc_Update.vhd 2022/04/30.15:43:50 J.40
+FL E:/LaboratoareSOC/mips/ProgCnt.vhd 2022/04/30.15:41:22 J.40
+FL E:/LaboratoareSOC/mips/ROM32x32.vhd 2022/04/30.16:54:33 J.40
+FL E:/LaboratoareSOC/mipscomplet/MUX2V32.vhd 2022/05/26.16:10:04 J.40
+FL Z:/Lab7/mipscomplet/mips.vhf 2022/05/26.17:20:16 J.40
+EN work/mips 1681153632 FL Z:/Lab7/mipscomplet/mips.vhf PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/mips/BEHAVIORAL 1681153633 \
+      FL Z:/Lab7/mipscomplet/mips.vhf EN work/mips 1681153632 CP ALU CP ctrl \
+      CP DataMem CP MUX2V32 CP MUX2V5 CP Pc_Update CP ProgCnt CP File_Regs CP ROM32x32

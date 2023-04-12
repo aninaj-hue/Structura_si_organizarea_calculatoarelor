@@ -1,0 +1,74 @@
+--------------------------------------------------------------------------------
+Release 9.2.04i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx92i\bin\nt\trce.exe -ise Z:/AddSub4V/AddSub4V.ise -intstyle ise -e 3
+-s 4 -xml top top.ncd -o top.twr top.pcf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xa3s50,vqg100,-4 (PRODUCTION 1.39 2007-10-19)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |R<0>           |    8.610|
+A<0>           |R<1>           |    8.534|
+A<0>           |R<2>           |    9.642|
+A<0>           |R<3>           |    9.536|
+A<1>           |R<1>           |    8.759|
+A<1>           |R<2>           |   10.311|
+A<1>           |R<3>           |   10.205|
+A<2>           |R<2>           |    9.403|
+A<2>           |R<3>           |    9.917|
+A<3>           |R<3>           |    9.114|
+B<0>           |R<0>           |    8.761|
+B<0>           |R<1>           |    8.685|
+B<0>           |R<2>           |    9.793|
+B<0>           |R<3>           |    9.687|
+B<1>           |R<1>           |    7.951|
+B<1>           |R<2>           |    9.503|
+B<1>           |R<3>           |    9.397|
+B<2>           |R<2>           |    8.930|
+B<2>           |R<3>           |    9.444|
+B<3>           |R<3>           |    8.893|
+S1A0           |R<0>           |    9.048|
+S1A0           |R<1>           |    8.511|
+S1A0           |R<2>           |    9.737|
+S1A0           |R<3>           |    9.631|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Mar 19 21:06:12 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 118 MB
+
+
+

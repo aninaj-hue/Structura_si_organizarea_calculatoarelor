@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/mips</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/mips.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/mips.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/mips/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/mips.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/mips.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ALU</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/ALU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/ALU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ALU/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/ALU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/ALU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/DataMem</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/DataMem.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/DataMem.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/DataMem/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/DataMem.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/DataMem.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/File_Regs</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/File_Regs.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/File_Regs.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/File_Regs/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/File_Regs.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/File_Regs.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/MUX2V32</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/MUX2V32.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V32.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/MUX2V32/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/MUX2V32.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V32.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/MUX2V5</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/MUX2V5.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V5.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/MUX2V5/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/MUX2V5.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V5.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/PC_Update</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/PC_Update.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/PC_Update.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/PC_Update/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/PC_Update.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/PC_Update.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ProgCnt</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/ProgCnt.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/ProgCnt.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ProgCnt/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/ProgCnt.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/ProgCnt.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ROM32x32</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/ROM32x32.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/ROM32x32.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ROM32x32/ROM32x32_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/ROM32x32.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/ROM32x32.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ctrl</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/ctrl.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/ctrl.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ctrl/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/SOC/Laborator5/mips/ctrl.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//vboxsvr/proiectare_logica/Laborator5/mips/ctrl.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">RdData2</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ALUSrc</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">SEAddr</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">OP1</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">OP2</arg>&gt; is used but never assigned. Tied to value <arg fmt="%s" index="2">00000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="unknown" >Output &lt;<arg fmt="%s" index="1">RegDest</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="unknown" >Found <arg fmt="%d" index="1">2</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUOP</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="unknown" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ALUOP</arg>&gt; is used but never assigned. Tied to value <arg fmt="%s" index="2">00</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">PC&lt;31:7&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">PC&lt;1:0&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">New_PC</arg>&gt; is used but never assigned. Tied to value <arg fmt="%s" index="2">00000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ALUSOP</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="unknown" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2664" delta="unknown" >HDL ADVISOR - Unit &lt;<arg fmt="%s" index="1">DataMem</arg>&gt; : The RAM &lt;<arg fmt="%s" index="2">Mram_RAM</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2664" delta="unknown" >HDL ADVISOR - Unit &lt;<arg fmt="%s" index="1">File_Regs</arg>&gt; : The RAM &lt;<arg fmt="%s" index="2">Mram_s32Regs32</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2664" delta="unknown" >HDL ADVISOR - Unit &lt;<arg fmt="%s" index="1">File_Regs</arg>&gt; : The RAM &lt;<arg fmt="%s" index="2">Mram_s32Regs32_ren</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">PC_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">PC_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">PC_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">PC_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">PC_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PC_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U_PC</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">PC_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ProgCnt</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">31 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PC_1&gt; &lt;PC_2&gt; &lt;PC_3&gt; &lt;PC_4&gt; &lt;PC_5&gt; &lt;PC_6&gt; &lt;PC_7&gt; &lt;PC_8&gt; &lt;PC_9&gt; &lt;PC_10&gt; &lt;PC_11&gt; &lt;PC_12&gt; &lt;PC_13&gt; &lt;PC_14&gt; &lt;PC_15&gt; &lt;PC_16&gt; &lt;PC_17&gt; &lt;PC_18&gt; &lt;PC_19&gt; &lt;PC_20&gt; &lt;PC_21&gt; &lt;PC_22&gt; &lt;PC_23&gt; &lt;PC_24&gt; &lt;PC_25&gt; &lt;PC_26&gt; &lt;PC_27&gt; &lt;PC_28&gt; &lt;PC_29&gt; &lt;PC_30&gt; &lt;PC_31&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">PC_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ProgCnt</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_26</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_27</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_28</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">U_DataMem/OUTW0_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">U_ctrl/ALUOP_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">U_ctrl/ALUOP_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips</arg>&gt;.
+</msg>
+
+</messages>
+

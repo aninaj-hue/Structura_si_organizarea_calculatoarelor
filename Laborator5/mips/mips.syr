@@ -1,0 +1,576 @@
+Release 9.2.04i - xst J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 2.67 s | Elapsed : 0.00 / 3.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 2.67 s | Elapsed : 0.00 / 3.00 s
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-ft256
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : No
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : mips.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/mips is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/mips.vhf", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/mips.vhf".
+WARNING:HDLParsers:3607 - Unit work/mips/BEHAVIORAL is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/mips.vhf", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/mips.vhf".
+WARNING:HDLParsers:3607 - Unit work/ALU is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/ALU.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU/Behavioral is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/ALU.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/DataMem is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/DataMem.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/DataMem.vhd".
+WARNING:HDLParsers:3607 - Unit work/DataMem/Behavioral is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/DataMem.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/DataMem.vhd".
+WARNING:HDLParsers:3607 - Unit work/File_Regs is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/File_Regs.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/File_Regs.vhd".
+WARNING:HDLParsers:3607 - Unit work/File_Regs/Behavioral is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/File_Regs.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/File_Regs.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX2V32 is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/MUX2V32.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V32.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX2V32/Behavioral is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/MUX2V32.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V32.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX2V5 is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/MUX2V5.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V5.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX2V5/Behavioral is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/MUX2V5.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V5.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_Update is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/PC_Update.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/PC_Update.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_Update/Behavioral is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/PC_Update.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/PC_Update.vhd".
+WARNING:HDLParsers:3607 - Unit work/ProgCnt is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/ProgCnt.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/ProgCnt.vhd".
+WARNING:HDLParsers:3607 - Unit work/ProgCnt/Behavioral is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/ProgCnt.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/ProgCnt.vhd".
+WARNING:HDLParsers:3607 - Unit work/ROM32x32 is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/ROM32x32.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/ROM32x32.vhd".
+WARNING:HDLParsers:3607 - Unit work/ROM32x32/ROM32x32_arch is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/ROM32x32.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/ROM32x32.vhd".
+WARNING:HDLParsers:3607 - Unit work/ctrl is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/ctrl.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/ctrl.vhd".
+WARNING:HDLParsers:3607 - Unit work/ctrl/Behavioral is now defined in a different file.  It was defined in "D:/SOC/Laborator5/mips/ctrl.vhd", and is now defined in "//vboxsvr/proiectare_logica/Laborator5/mips/ctrl.vhd".
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/ALU.vhd" in Library work.
+Entity <alu> compiled.
+Entity <alu> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/ctrl.vhd" in Library work.
+Entity <ctrl> compiled.
+Entity <ctrl> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/DataMem.vhd" in Library work.
+Entity <datamem> compiled.
+Entity <datamem> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V32.vhd" in Library work.
+Entity <mux2v32> compiled.
+Entity <mux2v32> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V5.vhd" in Library work.
+Entity <mux2v5> compiled.
+Entity <mux2v5> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/PC_Update.vhd" in Library work.
+Entity <pc_update> compiled.
+Entity <pc_update> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/ProgCnt.vhd" in Library work.
+Entity <progcnt> compiled.
+Entity <progcnt> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/File_Regs.vhd" in Library work.
+Entity <file_regs> compiled.
+Entity <file_regs> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/ROM32x32.vhd" in Library work.
+Entity <rom32x32> compiled.
+Entity <rom32x32> (Architecture <rom32x32_arch>) compiled.
+Compiling vhdl file "//vboxsvr/proiectare_logica/Laborator5/mips/mips.vhf" in Library work.
+Architecture behavioral of Entity mips is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <mips> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ctrl> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DataMem> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX2V32> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX2V5> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PC_Update> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ProgCnt> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <File_Regs> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ROM32x32> in library <work> (architecture <rom32x32_arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <mips> in library <work> (Architecture <behavioral>).
+Entity <mips> analyzed. Unit <mips> generated.
+
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <ctrl> in library <work> (Architecture <behavioral>).
+Entity <ctrl> analyzed. Unit <ctrl> generated.
+
+Analyzing Entity <DataMem> in library <work> (Architecture <behavioral>).
+Entity <DataMem> analyzed. Unit <DataMem> generated.
+
+Analyzing Entity <MUX2V32> in library <work> (Architecture <behavioral>).
+Entity <MUX2V32> analyzed. Unit <MUX2V32> generated.
+
+Analyzing Entity <MUX2V5> in library <work> (Architecture <behavioral>).
+Entity <MUX2V5> analyzed. Unit <MUX2V5> generated.
+
+Analyzing Entity <PC_Update> in library <work> (Architecture <behavioral>).
+Entity <PC_Update> analyzed. Unit <PC_Update> generated.
+
+Analyzing Entity <ProgCnt> in library <work> (Architecture <behavioral>).
+Entity <ProgCnt> analyzed. Unit <ProgCnt> generated.
+
+Analyzing Entity <File_Regs> in library <work> (Architecture <behavioral>).
+Entity <File_Regs> analyzed. Unit <File_Regs> generated.
+
+Analyzing Entity <ROM32x32> in library <work> (Architecture <rom32x32_arch>).
+Entity <ROM32x32> analyzed. Unit <ROM32x32> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ALU>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/ALU.vhd".
+WARNING:Xst:647 - Input <RdData2> is never used.
+WARNING:Xst:647 - Input <ALUSrc> is never used.
+WARNING:Xst:646 - Signal <SEAddr> is assigned but never used.
+WARNING:Xst:1780 - Signal <OP1> is never used or assigned.
+WARNING:Xst:653 - Signal <OP2> is used but never assigned. Tied to value 00000000000000000000000000000000.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 32-bit 4-to-1 multiplexer for signal <Y>.
+    Found 32-bit addsub for signal <Y$addsub0000>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <ctrl>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/ctrl.vhd".
+WARNING:Xst:1305 - Output <RegDest> is never assigned. Tied to value 0.
+WARNING:Xst:737 - Found 2-bit latch for signal <ALUOP>.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+Unit <ctrl> synthesized.
+
+
+Synthesizing Unit <DataMem>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/DataMem.vhd".
+    Found 16x32-bit single-port RAM <Mram_RAM> for signal <RAM>.
+    Found 32-bit register for signal <OUTW0>.
+    Found 32-bit 4-to-1 multiplexer for signal <DataOut>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  32 D-type flip-flop(s).
+	inferred  32 Multiplexer(s).
+Unit <DataMem> synthesized.
+
+
+Synthesizing Unit <MUX2V32>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V32.vhd".
+Unit <MUX2V32> synthesized.
+
+
+Synthesizing Unit <MUX2V5>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/MUX2V5.vhd".
+Unit <MUX2V5> synthesized.
+
+
+Synthesizing Unit <PC_Update>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/PC_Update.vhd".
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 32-bit adder for signal <New_PC>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <PC_Update> synthesized.
+
+
+Synthesizing Unit <ProgCnt>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/ProgCnt.vhd".
+    Found 32-bit register for signal <PC>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <ProgCnt> synthesized.
+
+
+Synthesizing Unit <File_Regs>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/File_Regs.vhd".
+    Found 32x32-bit dual-port RAM <Mram_s32Regs32> for signal <s32Regs32>.
+    Found 32x32-bit dual-port RAM <Mram_s32Regs32_ren> for signal <s32Regs32>.
+    Summary:
+	inferred   2 RAM(s).
+Unit <File_Regs> synthesized.
+
+
+Synthesizing Unit <ROM32x32>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/ROM32x32.vhd".
+    Found 1-of-32 decoder for signal <Data>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <ROM32x32> synthesized.
+
+
+Synthesizing Unit <mips>.
+    Related source file is "//vboxsvr/proiectare_logica/Laborator5/mips/mips.vhf".
+WARNING:Xst:653 - Signal <ALUOP> is used but never assigned. Tied to value 00.
+WARNING:Xst:646 - Signal <PC<31:7>> is assigned but never used.
+WARNING:Xst:646 - Signal <PC<1:0>> is assigned but never used.
+WARNING:Xst:653 - Signal <New_PC> is used but never assigned. Tied to value 00000000000000000000000000000000.
+WARNING:Xst:646 - Signal <ALUSOP> is assigned but never used.
+Unit <mips> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x32-bit single-port RAM                             : 1
+ 32x32-bit dual-port RAM                               : 2
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 32-bit addsub                                         : 1
+# Registers                                            : 2
+ 32-bit register                                       : 2
+# Latches                                              : 1
+ 2-bit latch                                           : 1
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+# Decoders                                             : 1
+ 1-of-32 decoder                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s400.nph' in environment C:\Xilinx92i.
+INFO:Xst:2664 - HDL ADVISOR - Unit <DataMem> : The RAM <Mram_RAM> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 32-bit                    |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <Wr>            | high     |
+    |     addrA          | connected to signal <Addr>          |          |
+    |     diA            | connected to signal <DataIn>        |          |
+    |     doA            | connected to signal <MemData>       |          |
+    -----------------------------------------------------------------------
+INFO:Xst:2664 - HDL ADVISOR - Unit <File_Regs> : The RAM <Mram_s32Regs32> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <WrEn>          | high     |
+    |     addrA          | connected to signal <WrReg>         |          |
+    |     diA            | connected to signal <WRData>        |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     addrB          | connected to signal <RdReg1>        |          |
+    |     doB            | connected to signal <RdData1_lcl>   |          |
+    -----------------------------------------------------------------------
+INFO:Xst:2664 - HDL ADVISOR - Unit <File_Regs> : The RAM <Mram_s32Regs32_ren> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <WrEn>          | high     |
+    |     addrA          | connected to signal <WrReg>         |          |
+    |     diA            | connected to signal <WRData>        |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     addrB          | connected to signal <RdReg2>        |          |
+    |     doB            | connected to signal <RdData2_lcl>   |          |
+    -----------------------------------------------------------------------
+WARNING:Xst:1293 - FF/Latch  <PC_2> has a constant value of 0 in block <U_PC>.
+WARNING:Xst:1293 - FF/Latch  <PC_3> has a constant value of 0 in block <U_PC>.
+WARNING:Xst:1293 - FF/Latch  <PC_4> has a constant value of 0 in block <U_PC>.
+WARNING:Xst:1293 - FF/Latch  <PC_5> has a constant value of 0 in block <U_PC>.
+WARNING:Xst:1293 - FF/Latch  <PC_6> has a constant value of 0 in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_0> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_1> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_7> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_8> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_9> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_10> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_11> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_12> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_13> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_14> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_15> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_16> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_17> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_18> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_19> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_20> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_21> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_22> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_23> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_24> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_25> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_26> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_27> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_28> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_29> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_30> of sequential type is unconnected in block <U_PC>.
+WARNING:Xst:2677 - Node <PC_31> of sequential type is unconnected in block <U_PC>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x32-bit single-port distributed RAM                 : 1
+ 32x32-bit dual-port distributed RAM                   : 2
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 32-bit addsub                                         : 1
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+# Latches                                              : 1
+ 2-bit latch                                           : 1
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+# Decoders                                             : 1
+ 1-of-32 decoder                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <PC_0> in Unit <ProgCnt> is equivalent to the following 31 FFs/Latches, which will be removed : <PC_1> <PC_2> <PC_3> <PC_4> <PC_5> <PC_6> <PC_7> <PC_8> <PC_9> <PC_10> <PC_11> <PC_12> <PC_13> <PC_14> <PC_15> <PC_16> <PC_17> <PC_18> <PC_19> <PC_20> <PC_21> <PC_22> <PC_23> <PC_24> <PC_25> <PC_26> <PC_27> <PC_28> <PC_29> <PC_30> <PC_31> 
+WARNING:Xst:1293 - FF/Latch  <PC_0> has a constant value of 0 in block <ProgCnt>.
+
+Optimizing unit <mips> ...
+
+Optimizing unit <DataMem> ...
+
+Optimizing unit <File_Regs> ...
+
+Optimizing unit <ctrl> ...
+WARNING:Xst:1710 - FF/Latch  <U_DataMem/OUTW0_0> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_1> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_2> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_3> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_4> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_5> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_6> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_7> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_8> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_9> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_10> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_11> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_12> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_13> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_14> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_15> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_16> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_17> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_18> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_19> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_20> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_21> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_22> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_23> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_24> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_25> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_26> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_27> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_28> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_29> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_30> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <U_DataMem/OUTW0_31> (without init value) has a constant value of 0 in block <mips>.
+WARNING:Xst:2677 - Node <U_ctrl/ALUOP_1> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <U_ctrl/ALUOP_0> of sequential type is unconnected in block <mips>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mips, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : mips.ngr
+Top Level Output File Name         : mips
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 97
+
+Cell Usage :
+# BELS                             : 1
+#      GND                         : 1
+# IO Buffers                       : 32
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400ft256-4 
+
+ Number of Slices:                       0  out of   3584     0%  
+ Number of IOs:                         97
+ Number of bonded IOBs:                 32  out of    173    18%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+CPU : 28.89 / 31.84 s | Elapsed : 29.00 / 32.00 s
+ 
+--> 
+
+Total memory usage is 248196 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  101 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

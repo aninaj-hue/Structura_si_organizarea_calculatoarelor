@@ -1,0 +1,9 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "E:/LaboratoareSOC/mips/mips.sch" mips.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "E:/LaboratoareSOC/mips/mips.sch" mips.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "E:/LaboratoareSOC/Lab7/mipscomplet/mips.sch" mips.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "E:/LaboratoareSOC/Lab7/mipscomplet/mips.sch" mips.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "E:/LaboratoareSOC/Lab7/mipscomplet/mips.sch" mips.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "E:/LaboratoareSOC/Lab7/mipscomplet/mips.sch" mips.vhf
+xst -ise "E:/LaboratoareSOC/Lab7/mipscomplet/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+xst -ise "E:/LaboratoareSOC/Lab7/mipscomplet/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+xst -ise "E:/LaboratoareSOC/Lab7/mipscomplet/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr

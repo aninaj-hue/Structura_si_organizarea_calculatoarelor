@@ -1,0 +1,1 @@
+sch2vhdl -intstyle ise -family aspartan3 -flat -suppress -w "Z:/as4/as4.sch" as4.vhf

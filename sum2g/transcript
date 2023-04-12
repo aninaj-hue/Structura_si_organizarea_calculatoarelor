@@ -1,0 +1,53 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {test.tdo} 
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vcomponents
+# -- Loading package vital_primitives
+# -- Loading package textio
+# -- Loading package vpackage
+# -- Compiling entity sum2g
+# -- Compiling architecture structure of sum2g
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vcomponents
+# -- Loading package numeric_std
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity test
+# -- Compiling architecture testbench_arch of test
+# vsim -lib work -sdfmax /UUT=netgen/par/sum2g_timesim.sdf -t 1ps test 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading unisim.vcomponents
+# Loading ieee.numeric_std(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.test(testbench_arch)
+# SDF 6.4b Compiler 2008.11 Nov 15 2008
+# 
+# Loading vital2000.vital_timing(body)
+# Loading simprim.vcomponents
+# Loading vital2000.vital_primitives(body)
+# Loading simprim.vpackage(body)
+# Loading work.sum2g(structure)
+# Loading simprim.x_buf(x_buf_v)
+# Loading simprim.x_obuf(x_obuf_v)
+# Loading simprim.x_lut4(x_lut4_v)
+# Loading simprim.x_one(x_one_v)
+# Loading simprim.x_roc(x_roc_v)
+# Loading simprim.x_toc(x_toc_v)
+# Loading instances from netgen/par/sum2g_timesim.sdf
+# Loading timing data from netgen/par/sum2g_timesim.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /test  File: test.vhw
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
